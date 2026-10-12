@@ -1,0 +1,65 @@
+#### 1. Define Your Needs and Set a Budget
+Your PC should be tailored to how you plan to use it. The primary purpose will dictate where your budget should go. Ask yourself:
+
+*   **Gaming:** Prioritize a powerful Graphics Card (GPU) and a good CPU. Look for a GPU with sufficient VRAM (e.g., 8GB+ for modern games) and a CPU with strong single-core performance.
+*   **Productivity / Content Creation (Video Editing, 3D Rendering):** Focus on a CPU with many cores (e.g., AMD Ryzen 9 or Intel Core i7/i9) and plenty of RAM (32GB or more).
+*   **General Use (Web Browsing, Office Work):** A moderate budget is perfectly adequate. Integrated graphics (a GPU built into the CPU) will work fine, and you can prioritize a fast SSD.
+
+Establishing a clear budget and primary use case will help you avoid overspending on unnecessary performance or underspending on what you truly need.
+
+#### 2. Understand the Core Components
+Familiarizing yourself with the parts is essential. Each component has a specific role:
+
+*   **Central Processing Unit (CPU):** The "brain" of the computer, responsible for executing instructions and multitasking.
+*   **Motherboard:** The main circuit board that connects all components together. Its form factor (size) and socket type determine compatibility with the CPU, case, and other parts.
+*   **Graphics Card (GPU):** Handles rendering of images and video, crucial for gaming, 3D rendering, and video editing.
+*   **Random Access Memory (RAM):** Temporary, high-speed storage for actively running programs and data. More RAM allows for smoother multitasking.
+*   **Storage (SSD/HDD):** Where your operating system, applications, and files are stored permanently.
+    *   **NVMe SSDs:** The fastest option, ideal for your operating system and primary applications.
+    *   **SATA SSDs:** Significantly faster than HDDs, offering great value as secondary or primary storage for budget builds.
+    *   **HDDs:** Slower mechanical drives but offer large capacities at a low cost, suitable for bulk file storage.
+*   **Power Supply Unit (PSU):** Converts wall power to usable voltages for all components. Don't skimp here; a high-quality unit is critical for system stability and longevity.
+*   **Cooling System:** Prevents the CPU (and sometimes GPU) from overheating. Solutions range from **Air Coolers** (reliable and cost-effective) to **Liquid Coolers** (often more efficient and quieter).
+*   **Case:** The enclosure that houses all your components. Its size (e.g., **Mid-Tower**, **Mini-ITX**) must accommodate your chosen motherboard and GPU.
+
+#### 3. Master Component Compatibility
+Ensuring your parts work together is the most important part of the research phase. Use these rules as your compatibility checklist:
+
+*   **CPU ↔ Motherboard:** The CPU's socket type (e.g., LGA 1700, AM5) must exactly match the motherboard's socket. Also, the motherboard's chipset must support your specific CPU.
+*   **Motherboard ↔ Case:** The motherboard's form factor (size) must fit inside the case.
+    *   **ATX:** Standard size for most builds.
+    *   **Micro-ATX:** Smaller, often used in budget or more compact builds.
+    *   **Mini-ITX:** Very small, used for compact builds.
+*   **RAM ↔ Motherboard:** The motherboard only supports specific RAM types (DDR4, DDR5) and speeds.
+*   **PSU ↔ All Components:** Ensure your PSU has enough wattage for all your components. A **Power Supply Calculator** (like the one from Newegg) can help you determine the total wattage you'll need. Also, check that the PSU has the correct power cables for your GPU.
+
+#### 4. Pick Your Parts and Set Your Budget
+Once you understand the components, you can start selecting specific models. A sample budget breakdown might look like this:
+
+| Component | Budget Allocation | Key Considerations |
+| :--- | :--- | :--- |
+| **CPU** | ~20% of total | Determines overall processing speed. |
+| **GPU** | ~30-40% of total | The biggest factor in gaming performance. |
+| **Motherboard** | ~10-15% of total | Pick one that has all the features you need. |
+| **RAM** | ~5-10% of total | 16GB is the sweet spot for gaming; 32GB for productivity. |
+| **Storage** | ~5-10% of total | At least a 512GB or 1TB NVMe SSD for your OS and apps. |
+| **PSU** | ~5-10% of total | Invest in a quality unit from a reputable brand. |
+| **Case** | ~5-10% of total | Choose for airflow, aesthetics, and component fit. |
+
+#### 5. Research Your Parts Using Reliable Sources
+Before you buy, validate your component choices with trusted reviews and benchmarks. Here are some excellent resources:
+
+*   **For Compatibility & Pricing:**
+    *   **[PCPartPicker](https://pcpartpicker.com):** An invaluable tool for checking compatibility and finding the best prices. Add your selected parts, and it will flag most major conflicts.
+*   **For In-Depth Reviews & Benchmarks:**
+    *   **[TechSpot](https://www.techspot.com/):** Known for data-driven reviews and its "TechSpot DB" for exploring hardware performance.
+    *   **[TechPowerUp](https://www.techpowerup.com/):** Excellent for GPU reviews, performance summaries, and having the largest database of GPU and CPU specifications.
+    *   **[Gamers Nexus](https://www.gamersnexus.net/):** Provides incredibly detailed, no-nonsense technical reviews and benchmarks.
+    *   **[Tom's Hardware](https://www.tomshardware.com/):** A long-standing authority offering rigorous testing and real-world performance analysis.
+    *   **AnandTech & TechRadar:** Also offer deep technical analysis and practical guides.
+*   **For Community Feedback:**
+    *   **Reddit (e.g., r/buildapc):** A fantastic place to get real-world advice and feedback on your build list.
+*   **For Video Tutorials:**
+    *   **YouTube (LTT, JayzTwoCents, etc.):** Visual guides are extremely helpful. Many creators offer detailed, step-by-step build videos.
+
+The goal is to see if multiple independent reviewers have a similar general opinion on a product.

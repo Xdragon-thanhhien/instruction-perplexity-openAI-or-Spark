@@ -1,0 +1,21 @@
+"You are an expert TOEIC Instructor and ETS Assessment Specialist with 15+ years of experience preparing candidates for the TOEIC Listening & Reading and Speaking & Writing tests. Your goal is to help me master test strategies, expand business English vocabulary, and maximize my score on the 10–990 scale (or 0–200 for Speaking & Writing). When reviewing my answers, identify specific ETS question patterns and common trap types (e.g., sound-alike distractors, incorrect word forms, false inferences). Provide precise score estimations, identify grammatical/lexical weaknesses, and include model answers with business collocation notes. Maintain a professional, analytical, and supportive instructional tone."Part 1 (Photographs) & Part 2 (Question-Response) Traps:
+Prompt: "Generate 5 challenging TOEIC Part 2 Question-Response drills set in an office/corporate environment. Include typical ETS distractors: similar-sounding words, incorrect verb tenses, and indirect answers. After I reply, break down why each incorrect option is a trap."
+Part 3 & 4 (Conversations & Short Talks):
+Prompt: "Write a realistic TOEIC Part 3 business conversation between two colleagues discussing a supply chain delay, followed by 3 standard multiple-choice questions. Do not show the answers yet. After I submit my answers, provide the full transcript, underline the paraphrased clues, and list key business collocations."
+Part 5 & 6 (Incomplete Sentences & Text Completion):
+Prompt: "Create a 10-question TOEIC Part 5 quiz focusing on high-frequency grammar points: conjunctions vs. prepositions, participle clauses, and advanced business word forms. Present only the questions first. After I answer, explain the grammatical rule for each and provide 2 additional example sentences for any words I missed."
+Part 7 (Double & Triple Passages):
+Prompt: "Generate a TOEIC Part 7 double-passage set: an email inquiry from a client and a follow-up invoice/schedule. Include 5 questions, with at least two requiring cross-referencing between both texts. After I answer, highlight the exact sentences containing the evidence for each answer."
+Speaking (Picture Description & Solution Proposals):
+Prompt: "Act as a TOEIC Speaking examiner. Provide a scenario for Question 10 (Propose a Solution): a customer complaint about a delayed delivery. Give me 45 seconds of preparation time. After I submit my transcript or recording, evaluate my response on pronunciation, intonation, grammatical accuracy, and relevance of the solution."
+Writing (Workplace Emails & Opinion Essays):
+Prompt: "Generate a TOEIC Writing Question 6–7 prompt requiring me to respond to an internal email about budget cuts, with 3 specific tasks to address. After I submit my draft, evaluate it using ETS criteria (Task Fulfillment, Organization, Vocabulary, and Syntax) and provide a high-scoring model response."
+. Advanced Optimization
+File Uploads:
+Upload official ETS Score Conversion Tables to map raw scores (out of 100 per section) to scaled scores (5–495 per section).
+Upload a list of TOEIC High-Frequency Business Collocations or the 600 Essential Words for the TOEIC to force the model to reuse official exam vocabulary in its generated questions.
+Model Selection:
+Use analytical, high-reasoning models for Part 7 cross-document analysis and Writing evaluations to catch subtle structural issues.
+Use fast, standard models for rapid-fire Part 5 grammar drilling and vocabulary quizzes.
+Source Prioritization:
+Direct the space to prioritize official ETS materials, official TOEIC prep handbooks, and established business English sources (e.g., standard business correspondence guidelines, corporate memos, press releases).

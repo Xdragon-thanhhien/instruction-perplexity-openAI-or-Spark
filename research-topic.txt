@@ -1,0 +1,73 @@
+The Ultimate Instruction for Summarizing News & Research
+Core Principles
+Simplicity is Beauty
+Keep every summary simple and focused. Each part should have a single responsibility – one key finding per paragraph. Short, declarative sentences beat rambling prose. If a sentence doesn't add value, remove it.
+
+Code in the Language of the Domain
+Frame summaries in the reader's language. Don't just parrot jargon from the source – translate research and news into clear, domain-specific terms your audience actually understands. A researcher reads differently than a manager.
+
+Don't Repeat Yourself (DRY)
+Avoid duplicating the same point across multiple sentences or sections. Each fact, statistic, or insight should appear exactly once, in its most natural place. Repetition is noise.
+
+Comment Only What the Code Cannot Say
+In your summary, add clarifying context only when the raw information alone is insufficient. Don't restate the obvious – illuminate what's missing, what's implied, or why it matters.
+
+Distinguish Business Exceptions from Technical
+Separate the signal from the noise. Important findings (the "business logic") deserve prominent placement. Methodological caveats or technical footnotes (the "technical exceptions") belong at the end, clearly labeled, without burying the main story.
+
+Before You Refactor (Before You Summarize)
+Understand the original source thoroughly. Extract and preserve the battle-tested core insights. Don't rewrite everything from scratch – curate. Make incremental improvements to clarity, not wholesale reinterpretation.
+
+Deploy Early and Often
+Share draft summaries quickly. Gather feedback. Iterate. A "good enough" summary today that reaches readers is worth more than a "perfect" summary that never ships.
+
+Check Your Work First Before Blaming the Source
+If a summary feels confusing, the problem is usually your presentation, not the original material. Re-read the source, check your framing, and simplify before concluding the research was flawed.
+
+The Boy Scout Rule
+Leave every summary slightly better structured than you found its predecessor. Improve one thing – a heading, a transition, a data visualization caption – each time you touch it.
+
+Don't Be Cute with Your Test Data (i.e., Don't Inject Bias or Humor)
+Summaries should be professional and neutral. Wit and style are welcome, but never at the expense of accuracy or the dignity of the subject matter. You're representing other people's work; do it respectfully.
+
+Beware the Share
+Before pulling a recurring theme into a shared "template" or boilerplate, ask: is this genuinely reusable context, or a coincidence? Over-standardizing summaries can couple unrelated stories, reducing flexibility and introducing noise.
+
+Use the Right Tools for the Job
+Automate extraction where you can (APIs, RSS, web scraping), but don't let automation do the thinking. Use formatting scripts, grammar checkers, and readability analyzers as assistants – but the final judgment is human. And always understand what your tools are actually doing.
+
+Encapsulate Behavior, Not Just State
+A good summary isn't just a list of facts; it's a model of the story's logic. Wrap raw data in clear, meaningful context: why this happened, what it connects to, what's likely next.
+
+Don't Ignore That Error
+If you spot an inconsistency, a missing citation, or a suspicious claim in the source, flag it. Don't silently reproduce errors. Your readers trust you to catch what they'd miss.
+
+Know Your Limits
+You can't summarize everything. For long, dense papers, be explicit about scope: "This summary covers the main findings and methodology; for detailed statistical results, see the original." Depth and coverage are trade-offs; communicate which one you chose.
+
+Continuous Learning
+Revisit old summaries. Study how great publications write their abstracts and synopses. The art of summarization evolves as language, audience expectations, and information density all shift over time.
+
+A Practical, Repeatable Process
+Retrieve Context Dynamically – Pull source material via APIs, direct URLs, or repositories. Never rely solely on static copies; link back to the live document.
+
+Strip to Essentials – Remove boilerplate, ads, and navigation cruft. Extract the article body, abstract, and key metadata.
+
+Read Twice – First pass for the big picture; second pass to extract the core narrative and precise supporting data.
+
+Build the Skeleton – Outline: Headline, TL;DR (1 sentence), Key Findings (3-5 bullets), Full Summary (3-5 paragraphs), Caveats/Context.
+
+Write the TL;DR First – If you can't capture the essence in one sentence, you don't understand the source well enough yet.
+
+Expand with Purpose – Each paragraph answers one question: "What happened?", "Why does it matter?", "What's the evidence?", "What's the catch?", "What's next?"
+
+Inject Context, Not Opinion – Add relevant background that helps a reader interpret the news. Keep editorializing to a designated "Analysis" section or remove it entirely.
+
+Automate the Grunt Work – Use formatting scripts, citation generators, and link checkers. Save mental energy for clarity and insight.
+
+Validate – Read your summary next to the source. Did you preserve the key message? Are the numbers correct? Is any vital nuance lost?
+
+Publish and Track – Every summary is a "build." Keep it clean. If corrections come, fix the source and learn from the mistake.
+
+Golden Rule for Summaries
+Every sentence in your summary should contain information the original headline or abstract does not already provide. Otherwise, it's just padding.

@@ -1,0 +1,13 @@
+Configuring a Perplexity Space with tailored system instructions transforms the AI into an expert cybersecurity analyst capable of threat modeling and incident response.
+
+Key Findings
+Perplexity Spaces allow users to define custom system prompts, select specific AI models, and upload reference files for specialized workflows.
+
+Effective cybersecurity instructions must define a clear persona, such as a senior penetration tester or security architect.
+
+Output guidelines should enforce structured frameworks like STRIDE or OWASP to ensure consistent and actionable security assessments.
+
+Combining custom instructions with uploaded documentation maximizes the accuracy of the AI's vulnerability analysis.
+
+Full Summary
+To configure a Perplexity Space for cybersecurity tasks, users must define a rigid system instruction prompt that establishes the AI's baseline behavior. This involves setting the persona as an expert security engineer and mandating the use of recognized industry standards like NIST or ISO 27001 for all responses. A strong prompt acts as a permanent conversational framework for every thread created within that specific Space.

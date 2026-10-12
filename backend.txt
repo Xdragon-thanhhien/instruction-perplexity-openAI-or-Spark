@@ -1,0 +1,79 @@
+1. Core Backend Engineering Expectations (Mid‑Senior Level)
+Architecture design – Ability to design scalable, maintainable, and fault‑tolerant systems.
+
+API development – REST, GraphQL, gRPC; documentation (OpenAPI).
+
+Database knowledge – Both SQL (PostgreSQL) and NoSQL (Time‑series DB like InfluxDB, or Cassandra).
+
+Message brokers & streaming – Kafka, RabbitMQ, NATS (critical for real‑time telemetry).
+
+Containerisation & orchestration – Docker, Kubernetes (on‑prem or cloud).
+
+Cloud / On‑prem infrastructure – AWS (Ground Station, S3, EC2) or similar; ability to design hybrid space‑ground networks.
+
+Testing – Unit, integration, end‑to‑end, performance, chaos engineering.
+
+Monitoring & observability – Prometheus, Grafana, OpenTelemetry, distributed tracing.
+
+Security – Zero‑trust, encryption at rest/in transit, authentication (OAuth2, mTLS).
+
+Version control & CI/CD – Git, GitLab CI / GitHub Actions, ArgoCD.
+
+2. Space‑Specific Domain Knowledge Required
+Area	What you need to know
+Satellite operations	Telemetry, Tracking & Command (TT&C), onboard software, state vectors.
+Ground segment	Ground station communication (S‑band, X‑band), antenna scheduling, RF link budgets.
+Data processing	Handling raw satellite data (images, sensor readings) → Level 0 to Level 4 products.
+Time‑critical systems	Real‑time or near‑real‑time constraints (e.g., downlink pass scheduling, orbit determination).
+Spacecraft data formats	CCSDS (Consultative Committee for Space Data Systems) standards, PUS (Packet Utilisation Standard).
+File transfer protocols	CFDP (CCSDS File Delivery Protocol), UDP‑based reliable transfer.
+Orbital mechanics basics	Understand coordinate frames (ECI, ECEF), GPS time, orbit propagation (simplified).
+Mission lifecycle	Development, integration, validation (simulation environment), launch, commissioning, operations.
+3. Technical Stack Recommendations (Space Backend)
+Layer	Recommended Technologies
+Language	Go (for high concurrency, low memory), Rust (where safety and performance are critical), Python (for scripting, data analysis).
+Frameworks	Go – net/http, echo, gorilla; Python – FastAPI, Flask.
+Time‑series DB	InfluxDB, TimescaleDB (PostgreSQL extension) for telemetry storage.
+Stream processing	Apache Kafka (with exactly‑once semantics), or NATS JetStream for light‑weight.
+Orchestration	Kubernetes (K8s) with Helm; Argo Workflows for batch processing.
+Ground station middleware	Use open‑c3 or custom gRPC services.
+Simulation & testing	Docker‑compose, K3s, mock satellite using F prime or custom simulators.
+Monitoring	Prometheus + Grafana, Loki for logs, Tempo for traces.
+Messaging between components	gRPC (synchronous), NATS (asynchronous).
+File storage	S3‑compatible (MinIO for on‑prem, AWS S3 for cloud).
+4. Typical Responsibilities of a Mid‑Senior Space Backend Engineer
+Design and implement ground‑to‑space communication bridges (command uplink, telemetry downlink).
+
+Build real‑time data pipelines that ingest satellite telemetry, health status, and payload data.
+
+Develop mission scheduling services – e.g., when to contact a satellite, which commands to send.
+
+Implement anomaly detection using rule‑based or ML‑based models on streaming telemetry.
+
+Create data archival and retrieval systems (terabytes to petabytes).
+
+Work with mission control GUI teams to expose REST/gRPC APIs for operators.
+
+Write simulators for satellites to test ground software before launch.
+
+Ensure end‑to‑end reliability – design retries, circuit breakers, idempotency for satellite commands.
+
+Automate deployment on edge nodes (ground station computers) with limited connectivity.
+
+Participate in on‑call rotations – space systems often run 24/7.
+
+5. Best Practices & Pitfalls to Avoid
+✅ Best Practices
+Always use idempotent operations – re‑sending a command should not cause double execution.
+
+Store telemetry with timestamps in UTC (with nanosecond precision if possible).
+
+Simulate the space segment extensively – test with injected failures (network loss, delayed ACK).
+
+Use dead‑letter queues for failed commands – analyse later and possibly retry.
+
+Design for degraded modes – when the link is poor, the system should queue commands and resume later.
+
+Encrypt all commands – satellites can be spoofed; use mutual TLS or CCSDS security protocols.
+
+Implement rigorous logging – every command sent, every telemetry packet received, with sequence numbers.

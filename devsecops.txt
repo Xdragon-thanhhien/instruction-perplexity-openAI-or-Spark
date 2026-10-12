@@ -1,0 +1,39 @@
+1. Core Skills and Knowledge
+To successfully run a DevSecOps project, team members must bridge the gap between development, operations, and security.1 Key competencies include:
+
+Shared Responsibility Culture: Understanding that security is a shared responsibility across all stakeholders.13
+Secure Coding Practices: Upskilling developers to write secure code, perform threat modeling, and conduct secure code reviews.34
+Vulnerability Assessment: Understanding common software threats, vulnerabilities (such as the OWASP Top 10), and how they are exploited.45
+Compliance and Risk Management: Familiarity with security regulations, compliance monitoring, and managing security failures as technical debt in the project backlog.34
+Automation Mindset: Shifting from manual security gates to automated, continuous security testing within the deployment pipeline.67
+2. Technologies and Tools (The CI/CD Pipeline)
+DevSecOps relies heavily on automating security checks within a Continuous Integration and Continuous Deployment (CI/CD) pipeline.78 A standard toolchain includes:
+
+Code Phase (Static Analysis & Secret Scanning):
+Static Application Security Testing (SAST): Tools like Semgrep (for Python) or tfsec (for Infrastructure as Code) analyze written code for vulnerabilities before it is compiled.7
+Secret Scanning: Tools like git-secrets or built-in repository scanners (e.g., GitHub secret scanning) prevent developers from committing sensitive credentials or API keys into source control.7
+IDE Plugins: Tools like Snyk detect malicious plugins or vulnerable dependencies directly in the developer's integrated development environment.7
+Build & Test Phase (Dynamic & Interactive Analysis):
+Dynamic Application Security Testing (DAST): Tools like OWASP Zed Attack Proxy (ZAP) or AppCheck scan running applications for vulnerabilities.7
+Interactive Application Security Testing (IAST): Tools like Synopsys or Veracode analyze the application from the inside while it runs.7
+Dependency Analysis: Automated utilities (such as GitHub's Dependabot) scan third-party libraries and transitive dependencies for known Common Vulnerabilities and Exposures (CVEs).5910
+3. Infrastructure as Code (IaC) and Security
+A foundational principle of DevSecOps is "security as code".1 Instead of configuring infrastructure manually, security policies and configurations are managed through code.1
+
+Immutability: Deploying systems using pre-configured, known-good images that cannot be modified in production.11 If a change is needed, a new image is built and deployed through the pipeline.11
+Configuration as Code: Managing firewall settings, access control rules, and network topologies using IaC templates (e.g., Terraform).17 This allows security teams to audit infrastructure configurations before they are provisioned.17
+Container Security: Securing every layer of the stack, which includes scanning container base images, securing the host operating system, and isolating network namespaces.5
+4. Cloud Implementation (AWS Focus)
+When executing your project on AWS, DevSecOps practices must be mapped directly to cloud-native services:
+
+Identity and Access Management (IAM): Enforcing the principle of least privilege by defining granular roles and permissions for both human users and automated pipeline runners.112
+Secret Management: Utilizing secure vaults (such as AWS Secrets Manager or Systems Manager Parameter Store) to inject credentials into applications at runtime, ensuring no secrets are hardcoded.913
+Continuous Monitoring: Implementing logging and telemetry hooks across all cloud resources to maintain visibility and detect anomalous behavior in real-time.1314
+5. Utilizing AI in DevSecOps Projects
+Based on the available O'Reilly learning content, AI and Large Language Models (LLMs) introduce both new capabilities and unique security challenges to the SDLC.2 When incorporating AI into your DevSecOps project, focus on the following areas:
+
+AI-Assisted Code and Pipeline Generation: Developers can use AI tools to accelerate writing secure code templates, drafting CI/CD pipeline configurations, and generating unit tests.213
+Securing the AI Pipeline: If your project integrates AI or Retrieval-Augmented Generation (RAG) pipelines, you must implement specialized security controls.2 This includes:
+Prompt Injection Prevention: Implementing filters to prevent malicious inputs from hijacking the LLM.2
+PII Redaction: Ensuring sensitive personally identifiable information is scrubbed before data is sent to embedding models or external LLM APIs.2
+Data Governance: Establishing strict audit trails for generated content and securing the data ingestion pipelines (ETL) feeding your models.2

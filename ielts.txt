@@ -1,0 +1,37 @@
+1. Setting Up the "IELTS Space"
+To get started, navigate to the Spaces section in Perplexity and create a new one.
+
+Name: IELTS Mastery Lab
+
+Focus: Choose All (for general search) or Writing (if you want to focus on academic papers/sources).
+
+System Instructions: This is the most important part. Copy and paste the following into the "Instructions" box:
+
+"You are an expert IELTS Examiner with 15+ years of experience. Your goal is to help me practice all four modules (Listening, Reading, Writing, Speaking). When I submit work, provide feedback based on the official IELTS Band Descriptors (Task Response, Coherence/Cohesion, Lexical Resource, Grammatical Range/Accuracy). Always offer a 'Band Score' estimate and a 'Model Answer' for comparison. Use a supportive yet rigorous academic tone."
+
+2. Skill-Specific Practice Workflows
+✍️ Writing (Task 1 & 2)
+Instead of just asking for a prompt, give Perplexity specific constraints.
+
+The Prompt: "Generate a Task 2 Academic Writing prompt about [Technology/Environment/Education]. After I submit my essay, analyze it and highlight my specific grammatical errors in bold."
+
+Pro Tip: Upload a PDF of a sample essay or a graph image. Perplexity can "read" the image and ask you to describe it, mimicking the actual exam.
+
+🗣️ Speaking (Simulated Interviews)
+Since you can use the Perplexity mobile app, this works well for voice-to-text practice.
+
+The Prompt: "Act as an examiner for Speaking Part 2. Give me a cue card topic and 1 minute to prepare (I will tell you when I'm ready). Then, I will record my 2-minute response. Evaluate my fluency and pronunciation."
+
+📖 Reading & Listening (Analysis)
+Don't just take tests; analyze why you got answers wrong.
+
+The Prompt: "Search for a recent Academic Reading passage about 'Renewable Energy.' Create 5 'True/False/Not Given' questions based on it. After I answer, explain the 'distractors' used in the text to trick the reader."
+
+3. Advanced Optimization
+To make your Space more powerful, use these features:
+
+File Uploads: Upload the official IELTS Band Descriptor PDFs. This forces the AI to cross-reference your writing against the actual grading criteria rather than just "guessing" a score.
+
+Model Selection: If you have Pro, switch to Claude 3.5 Sonnet for Writing feedback (it tends to be more nuanced with language) or GPT-4o for rapid-fire Q&A.
+
+Web Source Pinning: You can instruct the Space to prioritize sources like IDP, British Council, or Cambridge English to ensure the practice tests you find are legitimate.
